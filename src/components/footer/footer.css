@@ -1,0 +1,54 @@
+.footerBlock{
+    position: relative;
+    z-index: 5;
+    background: #FAFBFC;
+    padding: 0;
+}
+.footer{
+    position: relative;
+    z-index: 5;
+    padding: 30px 0 40px 0;
+    max-width: 1080px;
+    margin: auto;
+    min-width: 980px;
+    cursor: pointer;
+}
+.generalDetails{
+    height: 340px;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+}
+.generalDetails img{
+    width: 100%;
+}
+.innerStories{
+    margin: 20px 0;
+    font-size: 14px;
+    color: #94969f;
+}
+.h1{
+    font-size: 14px;
+    margin: 30px 0 -10px 0;
+}
+.h1 strong,.li strong, p strong{
+    color: #535766;
+    font-weight: 700;
+}
+.p{
+    line-height: 18px;
+    color: #94969f;
+}
+ul{
+    list-style: none;
+}
+ul .li{
+    list-style-type: decimal;
+    margin: 1em 0;
+}
+ul .diskList{
+    list-style-type: disc;
+}
+.story{
+    cursor: text;
+}

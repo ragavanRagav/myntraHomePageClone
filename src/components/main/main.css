@@ -1,0 +1,62 @@
+.dealHeading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .13em;
+    font-weight: 500;
+    font-size: 1.8em;
+    max-height: 5em;
+    margin: 50px 0 10px 30px;
+}
+.dealSubHeading{
+    margin-top: 0;
+    margin-bottom: 50px;
+    line-height: 1em;
+    font-weight: 400;
+    max-height: 3em;
+    color: #7e818c;
+}
+.productBlock{
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productInnerBlock{
+    padding: 0 60px 0 30px;
+}
+.product-cards{
+    width: 220px;
+    height: auto;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.flatOfferBlock{
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 10;
+    color: #ffffff;
+    right: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.flatOfferText{
+    writing-mode: vertical-lr;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+    font-weight: 500;
+    font-size: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-block-start: 0;
+}
+.flatOfferArrow{
+    margin: 24px 16px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 14px solid #ffffff;
+    color: #ffffff;
+}
