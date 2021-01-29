@@ -10,7 +10,7 @@ export const Main =()=>{
                     return(
                         <div key={index}>
                         <h4 className="dealHeading">{element.Heading}</h4>
-                        <h4 className="dealSubHeading"></h4>
+                        {/* <h4 className="dealSubHeading"></h4> */}
                         <div className="productBlock">
                             <div className="productInnerBlock">
                             {
